@@ -256,18 +256,31 @@ textarea{
 
 /* Transición para la entrega de GITHUB*/
 
-.transition {
-  width: 100px;
-  height: 100px;
-  background:white;
-  transition: width 2s, height 2s, margin 2s;
-  margin: 50px auto 0;
+.creatividad {
+  width: 800px;
+  height: 50px;
+  background: #ffe23b;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: width 1s, background 1s;
+  -moz-transition: width 1s, background 1s;
+  -o-transition: width 1s, background 1s;
+  transition: width 1s, background 1s;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 40 px;
 }
-.transition:hover{
-  width: 100%;
-  height: 200px;
-  margin: 0 auto;
+
+.creatividad {
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
 }
+
+.creatividad:hover {
+  width: 1200px;
+  background: black;
 
   /* Ajustes de medidas FULL RESPONSIVE */
   
@@ -295,4 +308,4 @@ justify-items: center;
 
   @media(max-width: 320px) {
 }
-  }
+  }}
