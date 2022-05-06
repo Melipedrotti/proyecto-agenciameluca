@@ -1,0 +1,48 @@
+
+*{
+    box-sizing: border-box;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1{ font-size: 3.5em;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif}
+  h2{ font-size: 2.7em;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif}
+  h3{ font-size: 2em;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif}
+  p{ font-size: 1.25em;
+    font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif}
+  ul{ list-style: none;
+    float:right;
+  color:white}
+
+  footer .footer_logos{
+    color:white
+  }
+
+  .footer_texto{
+    color:white
+  }
+
+
+  .nav-link{
+    color: #f6f6f6;
+  }
+  .nav-link a{
+    padding: 0.31rem 0.75rem;
+    text-decoration: none;
+    color: white;
+  }
+.navbar-nav .nav-link:hover {
+    color: $color-principal;
+    border-bottom: 1.5px solid $color-principal;
+    transition: border-bottom .15s;
+    padding-bottom: 4px;
+}

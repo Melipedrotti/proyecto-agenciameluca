@@ -1,9 +1,11 @@
-*{
+/* *{
     box-sizing: border-box;
   }
-  
+   */
 /* Ajustes generales */
 
+
+/* 
   html{
     scroll-behavior: smooth;
   }
@@ -30,11 +32,12 @@
 
   .footer_texto{
     color:white
-  }
+  } */
+
 
   /* Ajustes en barra de navegación  */
 
-  .nav-link{
+  /* .nav-link{
     color: #f6f6f6;
   }
   .nav-link a{
@@ -47,7 +50,7 @@
     border-bottom: 1.5px solid #ffe23b;
     transition: border-bottom .15s;
     padding-bottom: 4px;
-}
+} */
 
  
    /* Ajustes en galería */
@@ -58,21 +61,29 @@ margin-right: 5rem;
   }
 
    /* Ajustes index */
-  
+
+/*   
    body {
      background-image: url("imagenes/fondo.png");
      background-size:auto;
      background-repeat:no-repeat;
      background-position:center;
     }
-      
+       */
+
+
  /* Ajustes en donde estamos */
-  .text-ubicacion{
+
+  /* .text-ubicacion{
     margin-left: 10%; 
   }
-  
+   */
+
+
 /* Ajustes de contacto */
 
+
+/* 
   *{box-sizing:border-box;
     margin-top: 2%;}
 
@@ -132,7 +143,8 @@ textarea{
   .foto{
     width: 35rem;
     height: 35rem;
-}
+} */
+
 
   /* Ajustes de medidas FULL RESPONSIVE */
   
