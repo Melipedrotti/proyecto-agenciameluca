@@ -12,20 +12,20 @@
   }
   
   h1{ font-size: 3.5em;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif}
+    font-family: map-get($estilos, fuente)}
   h2{ font-size: 2.7em;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif}
+    font-family: map-get($estilos, fuente)}
   h3{ font-size: 2em;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif}
+    font-family: map-get($estilos, fuente)}
   p{ font-size: 1.25em;
-    font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif}
+    font-family:map-get($estilos, fuente)}
   ul{ list-style: none;
     float:right;
-  color:white}
+  color: map-get($estilos, color)}
 
   
   .footer_texto{
-    color:white;
+    color:map-get($estilos, color);
   }
   .footer_logos{
   @extend .footer_texto;
@@ -38,7 +38,7 @@
   .nav-link a{
     padding: 0.31rem 0.75rem;
     text-decoration: none;
-    color: white;
+    color: map-get($estilos, color);
   }
 .navbar-nav .nav-link:hover {
     color: $color-principal;
