@@ -54,11 +54,11 @@
 
  
    /* Ajustes en galería */
-
+/* 
   .carousel-item {
 margin-left: 5rem;
 margin-right: 5rem;
-  }
+  } */
 
    /* Ajustes index */
 
@@ -148,7 +148,7 @@ textarea{
 
   /* Ajustes de medidas FULL RESPONSIVE */
   
-  @media(max-width: 768px) {
+  /* @media(max-width: 768px) {
 header{
   display:grid;
 grid-template-columns: 1fr;
@@ -169,7 +169,4 @@ justify-items: center;
     width: 35rem;
     height: 35rem;
 }
-
-  @media(max-width: 320px) {
-}
-  }
+  } */

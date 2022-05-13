@@ -1,1 +1,6 @@
 $color-principal: #ffe23b;
+
+@mixin center-items {
+    justify-items: center;
+    align-items: center;
+}

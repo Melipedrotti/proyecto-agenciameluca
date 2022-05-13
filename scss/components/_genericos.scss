@@ -23,18 +23,18 @@
     float:right;
   color:white}
 
-  footer .footer_logos{
-    color:white
-  }
-
+  
   .footer_texto{
-    color:white
+    color:white;
   }
-
+  .footer_logos{
+  @extend .footer_texto;
+  }
 
   .nav-link{
-    color: #f6f6f6;
+  @extend .footer_texto;
   }
+
   .nav-link a{
     padding: 0.31rem 0.75rem;
     text-decoration: none;
@@ -45,4 +45,25 @@
     border-bottom: 1.5px solid $color-principal;
     transition: border-bottom .15s;
     padding-bottom: 4px;
+}
+
+@media(max-width: 768px) {
+  header{
+    display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  @include center-items
+  }
+  
+  .galeriaimg {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1 15rem) ;
+    @include center-items
+    }
+  
+    .foto{
+      width: 35rem;
+      height: 35rem;
+  }
 }
