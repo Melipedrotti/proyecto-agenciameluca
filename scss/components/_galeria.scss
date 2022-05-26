@@ -1,5 +1,9 @@
 
-  .carousel-item {
-    margin-left: 5rem;
-    margin-right: 5rem;
-      }
+.carousel-item img {
+  object-fit: cover;
+  height: 30rem;
+  width: 20rem;
+display: flex;
+justify-content: center;
+margin-left: 28%;
+}

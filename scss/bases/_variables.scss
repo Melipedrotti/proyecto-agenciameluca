@@ -1,11 +1,10 @@
 $color-principal: #ffe23b;
+$font-principal:'Raleway',
+'Poppins',
+sans-serif;
+$color:white;
 
 @mixin center-items {
     justify-items: center;
     align-items: center;
 }
-
-$estilos: (
-color: white
-fuente: Century Gothic,CenturyGothic,AppleGothic,sans-serif
-)
