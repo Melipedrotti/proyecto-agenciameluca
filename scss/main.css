@@ -202,9 +202,6 @@ header nav .navbar .navbar-expand-lg.navbar-nav.bg-black {
     width: 35rem;
     height: 35rem;
   }
-  .carousel-item img {
-    margin-left: none;
-  }
 }
 
 body {
@@ -243,6 +240,14 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 28%;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  max-width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
